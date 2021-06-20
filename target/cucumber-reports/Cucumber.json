@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-20T11:05:33.341Z",
+        "line": 4,
+        "name": "Compressors",
+        "description": "",
+        "id": "parts-and-supplies;compressors",
+        "after": [
+          {
+            "result": {
+              "duration": 798000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.DemoTest.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16680000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login to lennoxPros",
+            "match": {
+              "location": "stepDefinition.DemoTest.login_to_lennoxPros()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User able to view home page",
+            "match": {
+              "location": "stepDefinition.DemoTest.user_able_to_view_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2569000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate via Menu to Parts And Supplies to Compressors",
+            "match": {
+              "location": "stepDefinition.DemoTest.navigate_via_Menu_to_Parts_And_Supplies_to_Compressors()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate user at the compressor page",
+            "match": {
+              "location": "stepDefinition.DemoTest.validate_user_at_the_compressor_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2760000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Select Air Compressors",
+            "match": {
+              "location": "stepDefinition.DemoTest.select_Air_Compressors()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate the landing page description",
+            "match": {
+              "location": "stepDefinition.DemoTest.validate_the_landing_page_description()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25780000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Locate for the product 10T46 on the page, if not found navigate to the subsequent pages until the product is found. If the product is not listed in any of the pages then provide the details in the report.",
+            "match": {
+              "location": "stepDefinition.DemoTest.locate_for_the_product_10T46_on_the_page_if_not_found_navigate_to_the_subsequent_pages_until_the_product_is_found_If_the_product_is_not_listed_in_any_of_the_pages_then_provide_the_details_in_the_report()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4398000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Collect all the listed details pertaining to the product and store",
+            "match": {
+              "location": "stepDefinition.DemoTest.collect_all_the_listed_details_pertaining_to_the_product_and_store()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2959000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on the Product and it will lead to Product detail page.",
+            "match": {
+              "location": "stepDefinition.DemoTest.click_on_the_Product_and_it_will_lead_to_Product_detail_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 689000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Collect all the product details which are highlighted and compare it with the details from the previous page.",
+            "match": {
+              "location": "stepDefinition.DemoTest.collect_all_the_product_details_which_are_highlighted_and_compare_it_with_the_details_from_the_previous_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Parts And Supplies",
+    "description": "",
+    "id": "parts-and-supplies",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Lennox.feature",
+    "tags": []
+  }
+]

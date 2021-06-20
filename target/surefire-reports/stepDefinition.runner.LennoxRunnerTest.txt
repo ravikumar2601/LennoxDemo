@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: stepDefinition.runner.LennoxRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 58.896 s - in stepDefinition.runner.LennoxRunnerTest
