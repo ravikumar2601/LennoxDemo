@@ -13,5 +13,5 @@ import org.junit.runner.RunWith;
         monochrome = true,
         strict = true,
         tags = {"@Test"})
-public class LennoxRunnerTest {
+public class LennoxRunner {
 }

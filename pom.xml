@@ -17,7 +17,7 @@
             <properties>
                 <junit.parallel>classes</junit.parallel>
                 <test.forkCount>0</test.forkCount>
-                <test.runner>**/LennoxRunnerTest.class</test.runner>
+                <test.runner>**/LennoxRunner.class</test.runner>
             </properties>
         </profile>
     </profiles>

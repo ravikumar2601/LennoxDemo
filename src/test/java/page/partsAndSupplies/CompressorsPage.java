@@ -100,9 +100,8 @@ public class CompressorsPage extends BasePage {
         return this;
     }
 
-    public int getCatalogNumber(String catalogNo) throws IOException {
+    public CompressorsPage locateTheCatalogNumber(String catalogNo) throws IOException {
 
-        List<String> catNos = new ArrayList<>();
         int currentPage = 0;
         int productPosition = 0;
         for (int i = 1; i <= pageNos.size(); i++) {
@@ -139,7 +138,7 @@ public class CompressorsPage extends BasePage {
                 }
             }
         }
-        return productPosition;
+        return this;
     }
 
     public CompressorsPage getProductDetails(String index) throws IOException {
@@ -153,7 +152,6 @@ public class CompressorsPage extends BasePage {
 
         WebElement modelNo = driver.findElement(By.xpath(String.format(MODEL_NO, index)));
         String modelNoText = modelNo.getText().substring(26, 37).trim();
-        System.out.println("modelText ----" + modelNoText);
 
         waitInSec(2);
         WebElement yourPrice = driver.findElement(By.xpath(String.format(YOUR_PRICE, index)));

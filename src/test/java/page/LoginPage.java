@@ -12,8 +12,8 @@ public class LoginPage extends BasePage {
     private WebElement jPassword;
     @FindBy(id = "loginSubmit")
     private WebElement signInBtn;
-    @FindBy(xpath = "//img[@alt='LennoxPros Logo']")
-    private WebElement lennoxProsLogo;
+    @FindBy(xpath = "//h2[contains(text(),'Most Popular Products')]")
+    private WebElement mostPopularProductsText;
     @FindBy(xpath = "//a[contains(text(),'Sign In')]")
     private WebElement loginLinkbtn;
 
@@ -35,16 +35,16 @@ public class LoginPage extends BasePage {
         return this;
     }
 
-    public LoginPage clickOnSingInBtn() {
+    public LoginPage clickOnSignInBtn() {
         scrollToTheBottom();
         fluentWait(signInBtn);
         signInBtn.click();
         return this;
     }
 
-    public boolean isLennoxLogoDisplayed() {
-        fluentWait(lennoxProsLogo);
-        return lennoxProsLogo.isDisplayed();
+    public boolean isMostPopularProductsTextDisplayed() {
+        fluentWait(mostPopularProductsText);
+        return mostPopularProductsText.isDisplayed();
     }
 
     public LoginPage clickOnLoginLinkBtn() {
